@@ -49,7 +49,7 @@ group :development, :test do
 end
 
 # Use twitter bootstrap-sass for front-end UI and layout
-gem 'bootstrap-sass','3.3.7'
+gem 'bootstrap-sass','3.4.1'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.

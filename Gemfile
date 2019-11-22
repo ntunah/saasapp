@@ -6,6 +6,9 @@ ruby '2.6.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 
+#Adding jquery-rails on gem
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+
 # Use Font awesome sass gem for adding icons
 gem 'font-awesome-sass' , '4.6.2'
 

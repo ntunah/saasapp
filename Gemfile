@@ -5,6 +5,10 @@ ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+
+# Use Font awesome sass gem for adding icons
+gem 'font-awesome-sass' , '4.6.2'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
  gem 'sqlite3'

@@ -12,6 +12,9 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 # Use Font awesome sass gem for adding icons
 gem 'font-awesome-sass' , '4.6.2'
 
+# Use Hirb for better database table display in console
+gem 'hirb' , '0.7.3'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
  gem 'sqlite3'

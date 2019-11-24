@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
  root to: 'pages#home'
  get 'about', to: 'pages#about'
- resources :contacts
+ resources :contacts, only: :create
  # create custom URLs
- # get 'contacts-us.php' , to: 'contacts#new'
+get 'contact-us', to: 'contacts#new', as: 'new_contact'
 end
